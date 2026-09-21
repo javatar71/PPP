@@ -3,7 +3,7 @@
 
 int main(){
     std::cout << "Enter three integer numbers: ";
-    int a,b,c,tmp;
+    int a,b,c;
     std::cin >> a >> b >> c;
     bool is_sorted = false;
     while(!is_sorted){
