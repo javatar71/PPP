@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-int main(){ // simple program to exercise operators
+int main(){
     std::cout << "Please enter an integer value: ";
     int n = 0;
     std::cin >> n;
