@@ -5,13 +5,6 @@ project(PPP)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-
-set(TASK test)
-add_executable(${TASK} ${TASK}/main.cpp)
-set_target_properties(${TASK} PROPERTIES
-    RUNTIME_OUTPUT_DIRECTORY "bin/${TASK}"
-)
-
 set(PART part1)
 set(CHAPTER chap1)
 set(TASK 01_01_01)
