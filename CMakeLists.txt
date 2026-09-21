@@ -96,3 +96,10 @@ add_executable(${TASK} ${PART}/${CHAPTER}/${TASK}/main.cpp)
 set_target_properties(${TASK} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "bin/${PART}/${CHAPTER}/${TASK}"
 )
+
+set(CHAPTER chap2)
+set(TASK 01_02_08)
+add_executable(${TASK} ${PART}/${CHAPTER}/${TASK}/main.cpp)
+set_target_properties(${TASK} PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "bin/${PART}/${CHAPTER}/${TASK}"
+)
