@@ -1,0 +1,5 @@
+add_executable(ch02_tt01 01.cpp)
+add_executable(ch02_tt02 02.cpp)
+add_executable(ch02_tt03 03.cpp)
+add_executable(ch02_tt04 04.cpp)
+add_executable(ch02_tt05 05.cpp)
